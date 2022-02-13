@@ -1,0 +1,50 @@
+
+e5l Drop old native memory model (#2739)
+…
+Latest commit 43fa9ab 20 days ago
+ History
+ 4 contributors
+@cy6erGn0m@e5l@orangy@turansky
+42 lines (34 sloc)  471 Bytes
+   
+build
+.gradle
+.gradletasknamecache
+.idea/*
+!.idea/runConfigurations
+!.idea/runConfigurations/*
+!.idea/vcs.xml
+!.idea/dictionaries
+!.idea/dictionaries/*
+!.idea/copyright
+!.idea/copyright/*
+!.idea/codeStyles
+!.idea/codeStyles/*
+!.idea/icon.png
+out
+*.iml
+.vscode
+
+*.versionsBackup
+*.releaseBackup
+release.properties
+local.properties
+*.swp
+
+.video
+.attach_pid*
+apidoc
+
+
+bin/
+.settings
+.project
+.classpath
+.konan
+
+.DS_Store
+
+hs_err_pid*.log
+
+gradle-user-home
+kotlin-js-store
